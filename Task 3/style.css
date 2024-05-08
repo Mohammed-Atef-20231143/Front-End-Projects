@@ -1,0 +1,80 @@
+.box1 {
+    background-color: #DDD;
+    margin: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    font-size: 18px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box3 {
+    font-size: 18px;
+    justify-content: center;
+    padding: 50px 0;
+    margin-left: 25%;
+}
+
+.sign {
+    background-color: rgb(0, 106, 255);
+    color: #fffcfc;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgb(0, 106, 255);
+}
+
+.Logo {
+    font-size: 28px;
+    margin: 20px;
+}
+
+.inf {
+    font-size: 18px;
+    margin: 28px;
+    word-spacing: 30px;
+}
+
+img {
+    width: 380px;
+    height: 380px;
+    border-radius: 25px;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 75%;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 75%;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.endl {
+    margin-left: -50%
+}
+
+.register {
+    background-color: rgb(0, 106, 255);
+    color: #fffcfc;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgb(0, 106, 255);
+}
