@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,502;1,502&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: Montserrat;
+}
+
+header, header div, .slide1{
+display: flex;
+justify-content: space-between;
+}
+
+header {align-items: baseline;}
+header h1, .title4 {color: rgba(56, 29, 219, 1);}
+header div{gap: 20px;}
+header a, .buttons-slide1 a{
+text-decoration: none;
+color: black;
+}
+section, footer {padding: 100px 120px;}
+header a{transition: ease 250ms;}
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(242, 237, 250);
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.35s;
+}
+  
+.sidenav a:hover {color: black;}
+  
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+.sub-slide1 {padding-top: 50px;}
+.note-content1, .note-content2 {
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 20px;
+color: rgb(102, 102, 102);
+}
+.title2 {padding-bottom: 15px;}
+.slide1{display: flexbox;}
+.content-slide1 {font-size: 25px;}
+.title1, .title2 {font-size: 50px;}
+.title3 {
+font-size: 35px;
+padding-bottom: 20px;
+}
+
+.buttons-slide1 button {
+font-size: 20px;
+border-radius: 9px;
+padding: 8px 12px;
+}
+
+.but1 {
+color: aliceblue;
+background-color: rgba(56, 29, 219, 1);
+}
+
+header a:hover {color: rgba(56, 29, 219, 1);}
+
+.regtangle1 {
+background-color: rgb(207, 255, 249);
+height: 80px;
+width: 200px;
+padding: 15px 33px;
+border-radius: 9px;
+}
+
+.regtangle2 {
+background-color: rgb(235, 255, 207);
+height: 80px;
+width: 200px;
+padding: 20px 33px;
+border-radius: 9px;
+}
+
+.regtangle3 {
+background-color: rgb(246, 227, 255);
+height: 80px;
+width: 200px;
+padding: 18px 33px;
+border-radius: 9px;
+}
+
+.regtangle4 {
+background-color: rgb(235, 255, 207);
+height: 80px;
+width: 200px;
+padding: 18px 33px;
+border-radius: 9px;
+}
+
+.cards {
+padding-top: 18px;
+padding-bottom: 35px;
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.info, .info-card, .info-end {
+display: flex;
+justify-content: space-between;
+}
+
+.sub-info-card {padding: 12px;}
+
+.slide3 {
+display: flex;
+justify-content: space-around;
+}
+
+.slide3 img {
+max-width: 510px;
+max-height: 510px;
+}
+
+.regtangle5 {
+margin: auto;
+width: 90%;
+height: 165px;
+background-color: rgb(236, 225, 255);
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.regtangle5 button {
+color: aliceblue;
+background-color: rgba(56, 29, 219, 1);
+font-size: 20px;
+border-radius: 9px;
+padding: 10px 15px;
+}
+
+.img-slide4{
+max-width: 280px;
+max-height: 280px;
+}
+
+footer {
+padding-bottom: 50px;
+text-align: center;
+justify-self: column;
+font-size: 20px;
+}
+
+.contact {padding-top: 21px;}
+.contact a{
+padding-left: 20px;
+text-decoration: none;
+color: black;
+font-size: 30px;
+transition: 250ms;
+}
+
+.end {
+padding-top: 45px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.end a {
+color: black;
+font-size: 20px;
+text-decoration: none;
+transition: 250ms;
+}
+.info-end {gap: 20px;}
+
+.end a:hover{color: rgba(56, 29, 219, 1);}
+.contact a:hover{color: rgba(56, 29, 219, 1);}
+
+@media screen and (max-device-width: 769px) {
+    * {
+        margin: auto;
+        justify-content: space-evenly;
+        
+    }
+    .regtangle5 {
+        width: 95%;
+        padding: 30px;
+    }
+    .regtangle5 button {font-size: 15px;}
+    .cards {gap: 20px;}
+    .slide3 {flex-direction: column;}
+    .slide1{
+        flex-direction: column-reverse;
+        justify-items: center;
+        text-align: center;
+    }
+    footer, .slide3 {font-size: 15px;}
+    footer {justify-content: space-between;}
+}
+
+@media screen and (max-device-width: 426px) {
+    .info-end {flex-direction: column;}
+}
+
+@media screen and (max-device-width: 376px) {
+    .regtangle5 {
+        flex-direction: column;
+        height: 220px;
+        text-align: center;
+    }
+    footer, .note-content2 {font-size: 18px;}
+    .off {display: none;}
+}
